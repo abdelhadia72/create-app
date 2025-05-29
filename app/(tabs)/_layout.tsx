@@ -50,6 +50,13 @@ export default function TabLayout() {
           title: 'Settings',
         }}
       />
+      <Tabs.Screen
+        name="network"
+        options={{
+          tabBarIcon: ({ color }) => <TabBarIcon name="book" color={color} />,
+          title: 'Network',
+        }}
+      />
     </Tabs>
   );
 }
